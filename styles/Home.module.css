@@ -76,8 +76,21 @@
   text-decoration: none;
 }
 .footer {
+  width: 100%;
+  background-color: white;
   text-align: center;
   font-family: "Indie Flower", cursive;
   padding: 3%;
   font-size: 1.5em;
+  position: fixed;
+  bottom: 0;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 30px auto 0;
+  text-align: center;
 }
