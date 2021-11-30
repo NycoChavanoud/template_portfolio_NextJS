@@ -1,9 +1,6 @@
 import styles from "../styles/Home.module.css";
+import Layout from "./layout";
 
 export default function Contact() {
-  return (
-    <>
-      <h2>Contact Page</h2>
-    </>
-  );
+  return <Layout title="Contact"></Layout>;
 }

@@ -1,9 +1,6 @@
 import styles from "../styles/Home.module.css";
+import Layout from "./layout";
 
 export default function Projects() {
-  return (
-    <>
-      <h2>Realisation page</h2>
-    </>
-  );
+  return <Layout title="Projects"></Layout>;
 }
