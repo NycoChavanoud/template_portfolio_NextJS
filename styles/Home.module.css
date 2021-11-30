@@ -1,0 +1,19 @@
+.titlePortfolio {
+  color: purple;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+
+.biographie {
+  color: brown;
+  font-family: "Indie Flower", cursive;
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 40px;
+}
