@@ -1,14 +1,39 @@
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import Cat from "../public/chat.jpg";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
+      <ul className={styles.navigation}>
+        <li>
+          <Link href="/">
+            <a>Accueil</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/projects">
+            <a>Mes réalisations</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/contact">
+            <a>Me contacter</a>
+          </Link>
+        </li>
+      </ul>
+
       <h1 className={styles.titlePortfolio}>Bienvenue sur mon portfolio</h1>
 
       <div className={styles.container}>
         <Image src={Cat} alt="cat" layout="responsive" />
+      </div>
+
+      <div className={styles.button}>
+        <Link href="/projects">
+          <a className={styles.cta}>Mes réalisations</a>
+        </Link>
       </div>
 
       <p className={styles.biographie}>
